@@ -9,7 +9,7 @@ import SwiftUI
 import CoreData
 
 struct ContentView: View {
-     //Mark - Property
+     //Mark - 1 Property
     @State var task: String = ""
     
     private var isButtonDisabled: Bool {
