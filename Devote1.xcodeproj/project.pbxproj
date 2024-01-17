@@ -16,6 +16,8 @@
 		174510F92B4DC886001C6591 /* sound-rise.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 174510F62B4DC885001C6591 /* sound-rise.mp3 */; };
 		174510FA2B4DC886001C6591 /* sound-tap.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 174510F72B4DC886001C6591 /* sound-tap.mp3 */; };
 		174510FB2B4DC886001C6591 /* sound-ding.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 174510F82B4DC886001C6591 /* sound-ding.mp3 */; };
+		17B220802B5819BA004800EA /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17B2207F2B5819BA004800EA /* Constant.swift */; };
+		17B220822B5828BE004800EA /* HideKeyboardExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17B220812B5828BE004800EA /* HideKeyboardExtension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +32,8 @@
 		174510F72B4DC886001C6591 /* sound-tap.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "sound-tap.mp3"; sourceTree = "<group>"; };
 		174510F82B4DC886001C6591 /* sound-ding.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "sound-ding.mp3"; sourceTree = "<group>"; };
 		174511022B4DCA3A001C6591 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		17B2207F2B5819BA004800EA /* Constant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
+		17B220812B5828BE004800EA /* HideKeyboardExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HideKeyboardExtension.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,6 +116,7 @@
 		174510FF2B4DC95A001C6591 /* Utility */ = {
 			isa = PBXGroup;
 			children = (
+				17B2207F2B5819BA004800EA /* Constant.swift */,
 			);
 			path = Utility;
 			sourceTree = "<group>";
@@ -119,6 +124,7 @@
 		174511002B4DC965001C6591 /* Extension */ = {
 			isa = PBXGroup;
 			children = (
+				17B220812B5828BE004800EA /* HideKeyboardExtension.swift */,
 			);
 			path = Extension;
 			sourceTree = "<group>";
@@ -207,6 +213,8 @@
 			files = (
 				174510F02B4DC6B1001C6591 /* Devote1.xcdatamodeld in Sources */,
 				174510ED2B4DC6B1001C6591 /* Persistence.swift in Sources */,
+				17B220822B5828BE004800EA /* HideKeyboardExtension.swift in Sources */,
+				17B220802B5819BA004800EA /* Constant.swift in Sources */,
 				174510E62B4DC6B0001C6591 /* ContentView.swift in Sources */,
 				174510E42B4DC6B0001C6591 /* Devote1App.swift in Sources */,
 			);
